@@ -48,6 +48,8 @@ Rails.application.configure do
   # Prepend all log lines with the following tags.
   config.log_tags = [ :request_id ]
 
+  config.jwt_secret_key = ENV['JWT_SECRET_KEY']
+
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
 
