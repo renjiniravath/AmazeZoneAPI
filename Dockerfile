@@ -1,4 +1,3 @@
-# Use the official Ruby image with a version greater than 3
 FROM ruby:3.0
 
 # Set the working directory inside the container
