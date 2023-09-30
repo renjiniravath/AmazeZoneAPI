@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :transactions
   has_many :credit_cards
   has_secure_password
 
